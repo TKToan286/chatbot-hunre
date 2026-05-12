@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Calendar, GraduationCap, MapPin, Calculator } from 'lucide-react';
+import { Calendar, GraduationCap, BookOpen, Calculator } from 'lucide-react';
 
 // 1. Import Layout & Store
 import { Sidebar } from './components/layout/Sidebar';
@@ -62,7 +62,7 @@ function App() {
     { label: 'Lịch thi học kỳ', p: 'Cho mình xem lịch thi học kỳ này', icon: <Calendar size={18} className="text-hunre-green" /> },
     { label: 'Cách tính GPA', p: 'Hướng dẫn cách tính điểm GPA', icon: <Calculator size={18} className="text-hunre-green" /> },
     { label: 'Xét học bổng', p: 'Điều kiện nhận học bổng là gì?', icon: <GraduationCap size={18} className="text-hunre-green" /> },
-    { label: 'Sơ đồ trường', p: 'Tìm vị trí phòng ban HUNRE', icon: <MapPin size={18} className="text-hunre-green" /> }
+    { label: 'Đăng ký học phần', p: 'Hướng dẫn cách đăng ký học phần', icon: <BookOpen size={18} className="text-hunre-green" /> }
   ];
 
   return (

@@ -1,0 +1,19 @@
+### Kiểm tra API MiniMax
+POST https://api.gaugauai.com/v1/chat/completions
+Content-Type: application/json
+Authorization: Bearer sk-NtyQXerBlZhF4Tw8mHlbS6Cy2ODBMoFridMj0Ngqr6KMetOx
+
+
+{
+    "model": "gpt-5.5",
+    "messages": [
+        {
+            "role": "system", 
+            "content": "Bạn là một trợ lý thông minh."
+        },
+        {
+            "role": "user", 
+            "content": "Chào bạn, đây là tin nhắn kiểm tra kết nối API."
+        }
+    ]
+}
